@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CountingShots : MonoBehaviour
+public class CountingCollisions : MonoBehaviour
 {
     [SerializeField] private Text _score;
     private int _count;

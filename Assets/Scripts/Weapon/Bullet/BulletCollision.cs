@@ -6,7 +6,7 @@ public class BulletCollision : MonoBehaviour
     public static BulletCollision Instance => _instance;
 
     [SerializeField] private ActivateBullets _activateBullets;
-    [SerializeField] private CountingShots _countingShots;
+    [SerializeField] private CountingCollisions _countingShots;
     [SerializeField] private ManagementTarget _spawnTarget;
 
     private void Awake()

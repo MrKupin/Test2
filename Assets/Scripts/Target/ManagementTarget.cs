@@ -17,7 +17,6 @@ public class ManagementTarget : MonoBehaviour
             if (_targets[i].activeInHierarchy)
             {
                 count++;
-                print(count);
             }
         }
         if (count == 0)
